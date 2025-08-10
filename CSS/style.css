@@ -1,0 +1,98 @@
+@font-face  {
+    font-family: 'Inter';
+    src: url(../FONTS/Inter/Inter-Italic-VariableFont_opsz\,wght.ttf);
+    src: url(../FONTS/Inter/Inter-VariableFont_opsz\,wght.ttf);
+}
+
+
+body {
+    background-color: #1b1b1b;
+}
+
+.opçõesbarra {
+    list-style-type: none;
+    margin-left: 50px;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.opçõesbarra button {
+    border: none;
+    color: white;
+    background: none;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.opçõesbarra button:hover {
+    background-color: #ececec;
+    color: #1b1b1b;
+}
+
+.entrada {
+    margin-left: 50px;
+    margin-top: 30px;
+    color: #ececec;
+}
+
+.saudação {
+    font-family: 'Inter';
+    font-weight: 800;
+    color: #ececec;
+    margin-left: 40px;
+}
+
+.escolher {
+    font-family: 'Inter';
+    font-weight: 600;
+    margin-left: 40px;
+    font-size: 25px;
+}
+
+.leque {
+    font-family: 'Inter';
+}
+
+.opção {
+    list-style-type: none;
+}
+
+.item {
+    background-color: #ececec;
+    border: none;
+    padding: 12px 24px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 8px;
+    color: #1b1b1b;
+    box-shadow: 0 4px 6px rgb(0, 0, 0);
+}
+
+.item:hover {
+    background-color: #919191;
+    color: #ececec;
+}
+
+.resumodia {
+    margin-left: 90px;
+}
+
+.resumodia h1 {
+    font-family: Inter;
+    font-weight: 500;
+    color: #ececec;
+}
+
+.resumosemana {
+    margin-left: 90px;
+}
+
+.resumosemana h1 {
+    font-family: 'Inter';
+    font-weight: 500;
+    color: #ececec;
+}
+
+
+
